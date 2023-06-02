@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="icon" type="image/png" href="images/favicon.jpg" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Contact Form</h1>
+      <form action="">
+        <label for="name">
+        <b>Name:</b>
+        <input type="text" name="Name" id="name" placeholder="Enter your name" required
+        /></label>
+        <label for="name"
+          ><b>Username:</b><input type="text" name="username" id="username" placeholder="Enter your username" required
+        /></label>
+        <label for="pwd"
+          ><b>Password:</b><input type="password" name="pwd" id="pwd" placeholder="Enter your password" required
+        /></label>
+        <label for="pwd"
+          ><b>Re-type Password:</b><input type="password" name="pwd" id="pwd" placeholder="Retype your password" required
+        /></label>
+        <label for="gender" class="gender main_gender"
+          ><b>Gender:</b></label>
+          <label for="male" class="gender" id="gender"
+            ><input type="radio" name="gender" id="gender">Male</label
+          >
+          <label for="female" class="gender" id="gender"
+            ><input type="radio" name="gender" id="gender">Female</label
+          ><br>
+        <label for="skills" class="skills main_skills"> 
+          <b>Techie Skills:</b> </label>
+          <label for="html" class="skills" id="skills"
+            ><input type="checkbox" name="skills" id="skills"/>HTML</label
+          >
+          <label for="css" class="skills" id="skills"
+            ><input type="checkbox" name="skills" id="skills"/>CSS</label
+          >
+          <label for="js" class="skills" id="skills"
+            ><input type="checkbox" name="skills" id="skills"/>JavaScript</label
+          >
+        <label for="phone-no"
+          ><b>Phone Number:</b>
+          <input
+            type="tel"
+            name="phone-no"
+            id="phone-no"
+            placeholder="Enter your phone number" required
+        /></label>
+        <label for="email"
+          ><b>Email:</b><input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address" required
+        /></label>
+        <label for="college"
+          ><b>College:</b>
+          <select name="colleges" id="colleges" required>
+            <option value="Select a college">Select a college</option>
+            <option value="UI">University of Ibadan</option>
+            <option value="UNILAG">University of Lagos</option>
+            <option value="UNILORIN">University of Ilorin</option>
+            <option value="CU">Convenant University</option>
+          </select>
+        </label>
+        <label for="submit"><input type="submit" value="Submit" class="submit"/></label>
+      </form>
+      <div class="section-p">
+        <p>Return to <a href="index.html">Home Page</a></p>
+        <p>Return to <a href="aboutus.html">About Us</a></p>
+    </div>
+    </main>
+  </body>
+</html>

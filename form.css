@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Halant', serif;
+    background-color: rgb(243, 243, 249);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100%;
+    /* margin: 0 auto; */
+    /* border: 1px solid black; */
+    background-color: #fff;
+    min-height: 70vh;
+    padding: 3em 6em;
+}
+h1{
+    margin-bottom: 0.3em;
+    font-size: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: #000000;
+}
+form{
+    width: 100%;
+    margin-bottom: 3em;
+    min-height: 65vh;
+}
+label{
+    display: flex;
+    margin-right: 2em;
+    margin-bottom: 1.5em;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 1.5rem;
+    color: #3a3939;
+}
+input{
+    margin-left: auto;
+    width: 65%;
+    padding: 0.95em;
+    border: 1px solid #828282;
+    border-radius: 0.25rem;
+    color: rgba(121, 121, 121, 1);
+}
+select{
+    border: 1px solid #828282;
+    padding: 0.95em;
+    width: 65%;
+    margin-left: auto;
+}
+option{
+    color: rgba(121, 121, 121, 1);
+}
+.main_gender{
+    margin-right: 14.5em;
+}
+.gender{
+   display: inline-block;
+}
+#gender{
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+}
+#male{
+    border: 1px solid black;
+}
+.main_skills{
+    margin-right: 12em;
+}
+.skills{
+   display: inline-block;
+}
+ #skills{
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+ }
+ .submit{
+    background-color: #155EEF;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 1em;
+}
+.submit:hover{
+    cursor: pointer;
+}
+ .section-p p{
+    padding-bottom: 0.8em;
+    text-align: center;
+}
+.section-p p a{
+    text-decoration: none;
+    color: rgb(38, 55, 238);
+}
