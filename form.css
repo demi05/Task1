@@ -58,6 +58,9 @@ select{
 option{
     color: rgba(121, 121, 121, 1);
 }
+input[radio]{
+    width: auto;
+}
 .main_gender{
     margin-right: 14.5em;
 }
@@ -71,6 +74,9 @@ option{
 }
 #male{
     border: 1px solid black;
+}
+input[checkbox]{
+    width: auto;
 }
 .main_skills{
     margin-right: 12em;
