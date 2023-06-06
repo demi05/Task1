@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Halant', serif;
-    background-color: rgb(243, 243, 249);
+    background-color: #fff;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ select{
 option{
     color: rgba(121, 121, 121, 1);
 }
-input[radio]{
+input[type="radio"]{
     width: auto;
 }
 .main_gender{
@@ -75,7 +75,7 @@ input[radio]{
 #male{
     border: 1px solid black;
 }
-input[checkbox]{
+input[type="checkbox"]{
     width: auto;
 }
 .main_skills{
